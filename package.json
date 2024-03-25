@@ -1,0 +1,17 @@
+{
+  "name": "jocul-cu-carti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-index": "sass --watch scss/index.scss css/index.css",
+    "compile-informatii": "sass --watch scss/informatii.scss css/informatii.css",
+    "compile-main-menu": "sass --watch scss/main-menu.scss css/main-menu.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.8.1",
+    "sass": "^1.71.1"
+  }
+}
