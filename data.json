@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name" : "Oala Magica",
+        "HP": 100,
+        "imagine": "/img/Oala Magica.jpeg",
+        "tip": "noapte",
+        "atac": 70,
+        "aparare": 70
+
+    }
+]
