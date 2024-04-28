@@ -1,0 +1,136 @@
+
+:root{
+  
+}
+
+body {
+    background-image: url('img/backgound5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    // declaram variabile
+    $border-radius: 25px;
+    $text-color: white;
+    $color1:  #f0f0f0;
+    $color2:  #ff6666;
+    $color3:  #4CAF50;
+    $color4: goldenrod;
+    // Incepe css-ul propru zis
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Kode Mono", monospace;
+    font-weight: 500;
+    
+    .game-board {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 400px; /* Înălțimea tabloului de joc */
+        .card {
+            background-color:$color1;
+            border: 1px solid #ddd;
+            border-radius: $border-radius;
+            padding: 20px;
+            width: 200px;
+            height: 400px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px; /* Adăugăm un spațiu între cărți */
+            display: flex; /* Folosim flexbox pentru a poziționa elementele în interiorul cărților */
+            flex-direction: column; /* Așezăm elementele vertical în interiorul cărților */
+            justify-content: center; /* Aliniem elementele în centrul vertical al cărților */
+         img {
+                max-width: 100px;
+                height: 200px;
+                border-radius: $border-radius;
+                margin-bottom: 10px;
+                align-self: center;
+             }
+        .hp {
+                background-color:$color2;
+                color:$text-color;
+                padding: 5px 10px;
+                border-radius: 15px;
+                margin-bottom: 10px;
+            }
+         .types {
+                margin-bottom: 10px;
+                span {
+                    padding: 3px 10px;
+                    background-color:$color3;
+                    color: $text-color;
+                    border-radius: 3px;
+                }
+            }
+        .stats {
+                display: flex;
+                justify-content: space-between;
+                background-color:$color4;
+                border: 2px;
+                border-radius: 25px;
+                div {
+                    flex: 1;
+                }
+            }
+            h2 {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            h3 {
+                font-size: 16px;
+                margin-bottom: 5px;
+            }
+    
+        }
+        .player {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+        }
+        .hand {
+            display: flex;
+            justify-content: center;
+        }
+        #player2 .hand {
+            flex-direction: row-reverse;
+        }
+        
+#dealButton {
+    background-color: $color3;
+    color: $text-color;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px; /* Adaugăm spațiu între buton și masa de joc */
+}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

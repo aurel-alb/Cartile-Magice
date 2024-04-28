@@ -1,5 +1,105 @@
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@charset "UTF-8";
+body {
+  background-image: url("img/backgound5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: "Kode Mono", monospace;
+  font-weight: 500;
+}
+.container .game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px; /* Înălțimea tabloului de joc */
+}
+.container .game-board .card {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px; /* Adăugăm un spațiu între cărți */
+  display: flex; /* Folosim flexbox pentru a poziționa elementele în interiorul cărților */
+  flex-direction: column; /* Așezăm elementele vertical în interiorul cărților */
+  justify-content: center; /* Aliniem elementele în centrul vertical al cărților */
+}
+.container .game-board .card img {
+  max-width: 100px;
+  height: 200px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.container .game-board .card .hp {
+  background-color: #ff6666;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.container .game-board .card .types {
+  margin-bottom: 10px;
+}
+.container .game-board .card .types span {
+  padding: 3px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 3px;
+}
+.container .game-board .card .stats {
+  display: flex;
+  justify-content: space-between;
+  background-color: goldenrod;
+  border: 2px;
+  border-radius: 25px;
+}
+.container .game-board .card .stats div {
+  flex: 1;
+}
+.container .game-board .card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.container .game-board .card h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.container .game-board .player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.container .game-board .hand {
+  display: flex;
+  justify-content: center;
+}
+.container .game-board #player2 .hand {
+  flex-direction: row-reverse;
+}
+.container .game-board #dealButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px; /* Adaugăm spațiu între buton și masa de joc */
+}
+
+/*# sourceMappingURL=index.css.map */
