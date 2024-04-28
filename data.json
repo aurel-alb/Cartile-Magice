@@ -3,10 +3,175 @@
         "id": 1,
         "name" : "Oala Magica",
         "HP": 100,
-        "imagine": "/img/Oala Magica.jpeg",
+        "imagine": "img/Oala Magica.jpeg",
         "tip": "noapte",
         "atac": 70,
-        "aparare": 70
+        "aparare": 70,
+        "descriere":"Oala dezafectata, se apara foarte bine, ataca folosind lingura de lemn"
+
+    },
+    {
+        "id": 2,
+        "name" : "Pinnata",
+        "HP": 40,
+        "imagine": "img/Pinnata.jpeg",
+        "tip": "zi",
+        "atac": 20,
+        "aparare": 50,
+        "descriere":"Creatura a zilei, atac foarte slab, insa odata eliminata, bomboanele ei dau viata aliatilor sai"
+
+
+    },
+    {
+        "id": 3,
+        "name" : "Vanatel",
+        "HP": 60,
+        "imagine": "img/Vanatel.jpeg",
+        "tip": "zi",
+        "atac": 50,
+        "aparare": 70,
+        "descriere":"Planta a padurii, aliat al Vrajitorului paianjen, ataca cu forta sa bruta"
+
+    },
+    {
+        "id": 4,
+        "name" : "Vrajitorul Dovleac",
+        "HP": 100,
+        "imagine": "img/Vrajitorul dovleac.jpeg",
+        "tip": "noapte",
+        "atac": 50,
+        "aparare": 90,
+        "descriere":"Vrajitor puternic al noptii, aliat al creaturilor zilei, ataca folosind magia sa puternica, aparare slaba"
+
+    },
+    {
+        "id": 5,
+        "name" : "Polarel",
+        "HP": 90,
+        "imagine": "img/Polarel.jpeg",
+        "tip": "noapte",
+        "atac": 100,
+        "aparare": 70,
+        "descriere":"Urs polar, poate ataca doar noaptea, atac foarte puternic"
+
+    },
+    {
+        "id": 6,
+        "name" : "Vrajitorul Paianjen",
+        "HP": 80,
+        "imagine": "img/Vrajitorul Paianjen.jpeg",
+        "tip": "noapte",
+        "atac": 100,
+        "aparare": 70,
+        "descriere": "Otraveste inamicii, are soldatei paianjeni care ataca inamicul, raufacatorul principal"
+
+    },
+    {
+        "id": 7,
+        "name" : "Abrax",
+        "HP": 60,
+        "imagine": "img/Abrax.jpeg",
+        "tip": "noapte",
+        "atac": 80,
+        "aparare": 40,
+        "descriere": "Vrajitor puternic, in slujba Vrajitorului paianjen, lupta calarind un paianjen mai mic, care scuipa otrava"
+
+    },
+    {
+        "id": 8,
+        "name" : "Lizard",
+        "HP": 80,
+        "imagine": "img/lizard.jpeg",
+        "tip": "zi",
+        "atac": 80,
+        "aparare": 50,
+        "descriere": "Reptila a padurii, foarte rapid, se poate misca doar ziua, si ataca inamicii cu sulita sa de fier"
+    },
+    {
+        "id": 9,
+        "name" : "Bomba cu miros",
+        "HP": 100,
+        "imagine": "img/Bomba cu miros.jpeg",
+        "tip": "noapte",
+        "atac": 40,
+        "aparare": 70,
+        "descriere": "Creatura a padurii, o ciuperca care se foloseste de mirosul sau puternic pentru a deruta adversarii"
+
+    },
+    {
+        "id": 10,
+        "name" : "Morcovel",
+        "HP": 100,
+        "imagine": "img/Morcovel.jpeg",
+        "tip": "zi",
+        "atac": 100,
+        "aparare": 70,
+        "descriere":"Vrajitor al zilei, produce mancare prin puterile sale, ataca si se apara slab, poate da viata aliatilor"
+
+    },
+    {
+        "id": 11,
+        "name" : "Copacii Bolnavi",
+        "HP": 80,
+        "imagine": "img/Copacii Bolnavi.jpeg",
+        "tip": "noapte",
+        "atac": 50,
+        "aparare": 90,
+        "descriere": "Otravesc inamicii prin radacinile lor care se ii ataca din pamant"
+    },
+    {
+        "id": 11,
+        "name" : "Furnarel",
+        "HP": 60,
+        "imagine": "img/Furnarel.jpeg",
+        "tip": "zi",
+        "atac": 100,
+        "aparare": 40,
+        "descriere": "Fosta soba dezafectata, poate da viata aliatilor, ataca prin valuri de caldura create din interiorul sau"
+
+    },
+    {
+        "id": 12,
+        "name" : "Luffy",
+        "HP": 80,
+        "imagine": "img/Luffy.jpeg",
+        "tip": "zi",
+        "atac": 70,
+        "aparare": 60,
+        "descriere": "Vrajitor puternic al zilei, produce panze care incetinesc adversarii, atacurile sale sunt doar magice"
+
+    },
+    {
+        "id": 13,
+        "name" : "Maslinuta",
+        "HP": 60,
+        "imagine": "img/Maslinuta.jpeg",
+        "tip": "zi",
+        "atac": 90,
+        "aparare": 30,
+        "descriere":"Creatura a padurii, imobilizeaza adversarii cu mrejele sale care ies din sol, poate ataca doar ziua"
+
+    },
+    {
+        "id": 14,
+        "name" : "Spinut",
+        "HP": 40,
+        "imagine": "img/Spinut.jpeg",
+        "tip": "zi",
+        "atac": 80,
+        "aparare": 50,
+        "descriere":"Creatura puternica a zilei, lanseaza cu spini inspre inamici"
+
+    },
+    {
+        "id": 15,
+        "name" : "Tigaia Tantar",
+        "HP": 80,
+        "imagine": "img/Tigaia Tanatar.jpeg",
+        "tip": "noapte",
+        "atac": 100,
+        "aparare": 10,
+        "descriere":"Creatura puternica a noptii, produce cantitati de mancare pentru aliatii sai, ataca lovindu-si adversarii"
 
     }
 ]
